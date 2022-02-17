@@ -8,15 +8,21 @@
     box-sizing: border-box;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    color: rgb(33, 33, 233);
+    font-weight: 900;
+    font-size: 2em;
+  }
   body {
     font-family: 'Raleway', sans-serif;
-    background-image: url("../images/Background.jpg");
+    background-image: url("../wp1846066.jpg");
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f7f7f7;
-    color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    background-color: #ffffff;
+    color: rgb(43, 42, 42);
     font-size: 1.2vw;
    }
 
@@ -26,7 +32,7 @@
     padding: .6rem;
   }
   #main {
-      padding: 0% 20% 0% 20%;
+      padding: 0% 20% 4% 20%;
   }
 
   #title {
@@ -40,12 +46,14 @@
     font-size: 1.1rem;
     text-align: center;
     padding: .2rem;
+    font-weight: bolder;
   }
 
   #survey-form {
-    background-color: #bdbdbd5d;
+    background-color: #ffffff5d;
     padding: 3rem 2.5rem;
     border-radius: 7px;
+    box-shadow: 1px 1px 5px 1px grey;
   }
 
   #submit {
