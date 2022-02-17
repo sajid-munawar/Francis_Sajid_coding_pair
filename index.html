@@ -14,7 +14,7 @@
         </div>
         <div id="main">
             <form id="survey-form">
-            <div id="input-fields">
+            <div id="inputs">
                 <label id="name-label"><b>Name:</b></label>
                 <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
                 <br>
@@ -22,11 +22,11 @@
                 <input id="email" type="email" name="email" class="form" required placeholder="johndoe@mymail.com"><br>
                 <br>
                 <label id="number-label"><b>Age:</b></label>
-                <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+                <input id="number" type="number" name="number" class="form" min="18" max="100" placeholder="18 and above">
              </div>
              <div id="dropdown-div"><br>
               <label id="dropdown-label"><strong>What's your favorite meal: </strong></label><br>
-              <select id="dropdown" name="code-lang" class="form">
+              <select id="dropdown" name="fav-meal" class="form">
                   <option value="rice">Rice</option>
                   <option value="Pork">Pork</option>
                   <option value="beef">Beef</option>
@@ -38,14 +38,14 @@
            </div>
            <div id="button-area">
                <br>
-              <label id="job-label"><b>Type of customer:</b></label><br>
+              <label id="cust-label"><b>Type of customer:</b></label><br>
               <input type="radio" class="radio-inline" name="gender" value="checkin" checked>Check-in customer<br>
               <input type="radio" class="radio-inline" name="gender" value="daily"> Daily attendant<br>
               <input type="radio" class="radio-inline" name="gender" value="dropby"> Drop by customer<br>
               <input type="radio" class="radio-inline" name="gender" value="bulk"> Bulk access
             </div>
             <div id="button-area"><br>
-              <label id="os-label"><b>Customer experience: </b></label><br>
+              <label id="feeling-label"><b>Customer experience: </b></label><br>
               <input type="checkbox" name="os1" value="love" checked> Just in love with the environs<br>
               <input type="checkbox" name="os2" value="okay"> Quite okay, to say<br>
               <input type="checkbox" name="0s3" value="offkey"> Just okay. Need some workup!<br>
@@ -53,7 +53,7 @@
   
             <div id="dropdown"><br><br>
               <label id="dropdown-label"><strong>Sector to really improve at: </strong></label><br>
-              <select id="dropdown" name="code-lang" class="form"><br><br>
+              <select id="dropdown" name="improvements" class="form"><br><br>
                   <option value="service">Service</option>
                   <option value="attendance">Attendance to customer</option>
                   <option value="display">Display</option>
@@ -64,7 +64,7 @@
               </select>
            </div>
             <div id="button-area"><br><br>
-              <label id="os-label"><b>Super magical experience:</b></label><br>
+              <label id="magical-label"><b>Super magical experience:</b></label><br>
               <input type="checkbox" name="tech1" value="pool"> Swimming pool<br>
               <input type="checkbox" name="tech2" value="tt"> Table tennis<br>
               <input type="checkbox" name="tech3" value="skate"> Skating team<br>
@@ -73,7 +73,7 @@
             </div>
   
   
-            <div id="ending"><br><br>
+            <div id="finale"><br><br>
               <label id="comments-label">What do we need to make your life a living paradise?</label><br>
               <textarea style= height:120px;" class="form" placeholder="Please feel free to write to us! We appreciate your concern..."></textarea><br><br>
               <button id="submit" type="submit"  class="form" >And together we push on!</button>
