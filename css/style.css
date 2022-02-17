@@ -15,8 +15,8 @@
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #45b6eb;
-    color: #fff;
+    background-color: #f7f7f7;
+    color: rgb(0, 0, 0);
     font-size: 1.2vw;
    }
 
@@ -43,7 +43,7 @@
   }
 
   #survey-form {
-    background-color: #2222425d;
+    background-color: #bdbdbd5d;
     padding: 3rem 2.5rem;
     border-radius: 7px;
   }
